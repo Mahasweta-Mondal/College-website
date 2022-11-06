@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <form>
+            <h1 align="center"><font size="30" color="blue">REGISTRATION FORM</font></h1>
+            <p align="center">Fill the form here</p>
+            <hr>
+            <h2><font color="brown">Personal Details</font></h2>
+            <label for="name"><b>Student Name</b></label>
+            <input type="text" name="First_name" placeholder="First Name" required>
+            <input type="text" name="Middle_name" placeholder="Middle Name" >
+            <input type="text" name="Last_name" placeholder="Last Name" required>
+            <br><br>
+            <label for="name"><b>Mother Name</b></label>
+            <input type="text" name="Mother_name" placeholder="Enter Name" required>
+            <label for="name"><b>Father Name</b></label>
+            <input type="text" name="Father_name" placeholder="Enter Name" required>
+            <br><br>
+            <label for="text"><b>Gender</b></label>
+            <label for="text">Male</label>
+            <input type="radio" name="Gender" value="Male">
+            <label for="text">Female</label>
+            <input type="radio" name="Gender" value="Female">
+            <br><br>
+            <label for="text"><b>Category</b></label>
+            <select name="Category">
+                <option value="-1">Choose</option>
+                <option value="General">General</option>
+                <option value="SC">SC</option>
+                <option value="ST">ST</option>
+                <option value="OBC">OBC</option>
+            </select>
+            <br><br>
+            <label for="text"><b>Identity Proof</b></label>
+            <select name="Category">
+                <option value="-1">Choose</option>
+                <option value="Aadhar">Aadhar card</option>
+                <option value="Pan_card">Pan Card</option>
+                <option value="Voter_Id">Voter ID</option>
+                <option value="Other">Other</option>
+            </select>
+            <label for="text"><b>Identity Number</b></label>
+            <input type="text" name="ID_No." placeholder="Enter ID number" required>
+            <br><br>
+            <label for="birthday"><b>Date of Birth</b></label>
+            <input type="date" name="birthday"required>   
+            <br><br>
+            <label for="text"><b>Contact</b></label>
+            <input type="text" name="Mobile_No" placeholder="Enter Mobile No."required>
+            <label for="text"><b>Email Id</b></label>
+            <input type="text" name="Email_id" placeholder="Enter Email id"required>
+            <br><br>
+            <label for="text"><b>Enter Password</b></label>
+            <input type="text" name="Password" placeholder="Enter Password"required>
+            <br><br>
+            <label for="text"><b>Confirm</b></label>
+            <input type="text" name="Password" placeholder="Re-enter Password"required>
+            <hr>
+            <h2><font color="brown">Address Details</font></h2>
+            <label for="text"><b>House No.</b></label>
+            <input type="text"required>
+            <label for="text"><b>Street</b></label>
+            <input type="text"required>
+            <br><br>
+            <label for="text"><b>Locality</b></label>
+            <textarea name="Locality" rows="2" cols="20"></textarea>
+            <label for="text"><b>City</b></label>
+            <input type="text"required>
+            <br><br>
+            <label for="text"><b>District</b></label>
+            <input type="text"required>
+            <label for="text"><b>State</b></label>
+            <input type="text"required>
+            <br><br>
+            <label for="text"><b>Country</b></label>
+            <input type="text"required>
+            <label for="text"><b>Pin</b></label>
+            <input type="text"required>
+            <hr>
+            <h2><font color="brown">Qualification Details</font></h2>
+            <table border="1">
+                <tr>
+                    <th>SL.no.</th>
+                    <th>Examinatiion</th>
+                    <th>Institute Name</th>
+                    <th>Board/University</th>
+                    <th>Passing Year</th>
+                    <th>Percentage/CGPA</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Class X</td>
+                    <td><input type="text" name="ClassX_institute" Maxlength="30"/></td>
+                    <td><input type="text" name="ClassX_board" Maxlength="30"/></td>
+                    <td><input type="text" name="ClassX_passing_year" Maxlength="30"/></td>
+                    <td><input type="text" name="ClassX_Percentage" Maxlength="30"/></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Class XII</td>
+                    <td><input type="text" name="ClassXII_institute" Maxlength="30"/></td>
+                    <td><input type="text" name="ClassXII_board" Maxlength="30"/></td>
+                    <td><input type="text" name="ClassXII_passing_year" Maxlength="30"/></td>
+                    <td><input type="text" name="ClassXII_Percentage" Maxlength="30"/></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Graduation</td>
+                    <td><input type="text" name="Graduate_institute" Maxlength="30"/></td>
+                    <td><input type="text" name="Graduate_board" Maxlength="30"/></td>
+                    <td><input type="text" name="Graduate_passing_year" Maxlength="30"/></td>
+                    <td><input type="text" name="Graduate_Percentage" Maxlength="30"/></td>
+                </tr>
+            </table>
+           <hr>
+           <label for="course"><b>Course Applying for</b></label> 
+           <label for="course">MCA</label> 
+           <input type="radio" name="course" value="MCA">
+           <label for="course">M.Tech</label> 
+           <input type="radio" name="course" value="M.Tech">
+           <label for="course">MBA</label> 
+           <input type="radio" name="course" value="MBA">
+           <label for="course">M.Sc</label> 
+           <input type="radio" name="course" value="M.Sc">         
+           <p>By creating an account you agree to our <a href="#">Terms and Condition</a></p>
+           <center>
+            <input type="Submit" value="Register">
+           </center>
+           <p>Already an account exist <a href="#">Sign in</a></p>
+        </form>
+    </body>
+</html> 
